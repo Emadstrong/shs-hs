@@ -6,9 +6,9 @@ client.on('ready', () => {
 })
 const {userAccount} = require("sphinx-run");
 new userAccount(client, Discord).autoReaction({
-    channel: 'process.env.channel',
-    user: 'process.env.user',
-    customBotId: ['process.env.bot']
+    channel: '1216882784048775300',
+    user: '1215434937553911899',
+    customBotId: ['824119071556763668']
 });
 client.login(process.env.token);
 const express = require("express");
